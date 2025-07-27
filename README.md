@@ -7,6 +7,7 @@ This project provides a Deep Reinforcement Learning (DRL) environment built with
 The UR5 robot is controlled via its **end-effector axis**, guiding a peg into a hole on a fixed object. A **camera is mounted directly on the robot’s end-effector**, capturing **100×100 grayscale images** as visual input. This configuration enables **eye-in-hand visual servoing**, where the robot perceives and reacts to its environment from its own point of view.
 
 In testing, the SAC agent was evaluated over 1000 episodes, achieving a final success rate of **95.6%** in completing the peg-in-hole task. This demonstrates the algorithm's strong performance in precision control and robust policy learning under visual feedback.
+
 ---
 
 ## Reward Convergence Plot
