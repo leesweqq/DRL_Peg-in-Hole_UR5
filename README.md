@@ -141,7 +141,7 @@ It will generate the reward convergence plot based on logs in `logs/monitor_*.cs
 
 - Hardware: NVIDIA RTX 3050 Laptop GPU (4GB VRAM)
 - Framework: Stable-Baselines3 (with CUDA auto acceleration)
-- Training Time: ~1 hour for 250,000 steps (depends on GPU)
+- Training Time: ~3 hour for 250,000 steps (depends on GPU)
 - Checkpoints: Automatically saved every 10,000 steps in `checkpoints/`
 
 ---
