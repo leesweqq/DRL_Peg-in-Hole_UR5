@@ -152,5 +152,5 @@ It will generate the reward convergence plot based on logs in `logs/monitor_*.cs
 - [PyBullet Documentation](https://pybullet.org/)
 - [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)
 - [Gymnasium API Reference](https://gymnasium.farama.org/)
-- UR5 Model:https://github.com/ElectronicElephant/pybullet_ur5_robotiq
-- Catalyst.RL:https://github.com/arrival-ltd/catalyst-rl-tutorial
+- UR5 Model: https://github.com/ElectronicElephant/pybullet_ur5_robotiq
+- Catalyst.RL: https://github.com/arrival-ltd/catalyst-rl-tutorial
