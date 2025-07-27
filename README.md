@@ -16,15 +16,44 @@ In testing, the SAC agent was evaluated over 1000 episodes, achieving a final su
   <img src="./images/reward_comparison.png" alt="reward_comparison graph" />
 </p>
 
-<p align="center">
+<div align="center">
 
-| Algorithm | Convergence Speed | Final Performance | Stability   | Success Rate |
-| --------- | ----------------- | ----------------- | ----------- | ------------ |
-| **SAC**   | 🟢 Fast           | 🟢 Excellent      | 🟢 Stable   | **95.6%**    |
-| PPO       | 🟡 Moderate       | 🟡 Bad            | 🟡 Average  | **26.9%**    |
-| A2C       | 🔴 Slow           | 🔴 Failure        | 🔴 Unstable | **0.0%**     |
+<table>
+  <thead>
+    <tr>
+      <th>Algorithm</th>
+      <th>Convergence Speed</th>
+      <th>Final Performance</th>
+      <th>Stability</th>
+      <th>Success Rate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>SAC</strong></td>
+      <td>🟢 Fast</td>
+      <td>🟢 Excellent</td>
+      <td>🟢 Stable</td>
+      <td><strong>95.6%</strong></td>
+    </tr>
+    <tr>
+      <td>PPO</td>
+      <td>🟡 Moderate</td>
+      <td>🟡 Bad</td>
+      <td>🟡 Average</td>
+      <td><strong>26.9%</strong></td>
+    </tr>
+    <tr>
+      <td>A2C</td>
+      <td>🔴 Slow</td>
+      <td>🔴 Failure</td>
+      <td>🔴 Unstable</td>
+      <td><strong>0.0%</strong></td>
+    </tr>
+  </tbody>
+</table>
 
-</p>
+</div>
 
 ---
 
