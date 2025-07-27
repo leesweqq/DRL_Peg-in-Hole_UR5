@@ -17,13 +17,11 @@ In testing, the SAC agent was evaluated over 1000 episodes, achieving a final su
 </p>
 
 <p align="center">
-
-| Algorithm | Convergence Speed | Final Performance | Stability   | Success Rate |
-| --------- | ----------------- | ----------------- | ----------- | ------------ |
-| **SAC**   | 🟢 Fast           | 🟢 Excellent      | 🟢 Stable   | **95.6%**    |
-| PPO       | 🟡 Moderate       | 🟡 Bad            | 🟡 Average  | **26.9%**    |
-| A2C       | 🔴 Slow           | 🔴 Failure        | 🔴 Unstable | **0.0%**     |
-
+  | Algorithm | Convergence Speed | Final Performance | Stability   | Success Rate |
+  | --------- | ----------------- | ----------------- | ----------- | ------------ |
+  | **SAC**   | 🟢 Fast           | 🟢 Excellent      | 🟢 Stable   | **95.6%**    |
+  | PPO       | 🟡 Moderate       | 🟡 Bad            | 🟡 Average  | **26.9%**    |
+  | A2C       | 🔴 Slow           | 🔴 Failure        | 🔴 Unstable | **0.0%**     |
 </p>
 
 ---
