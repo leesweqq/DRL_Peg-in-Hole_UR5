@@ -34,7 +34,7 @@ In testing, the SAC agent was evaluated over 1000 episodes, achieving a final su
 
 ---
 
-## 💻 Installation Instructions
+## Installation Instructions
 
 Recommended Python 3.9+ and install the following packages:
 
@@ -50,12 +50,12 @@ pip install tensorboard
 
 ---
 
-## 🚀 Usage
+## Usage
 
 All operations can be done through main_rl.py.
 
 
-### 🔧 Train Model
+### Train Model
 
 Uncomment the `train(...)` line and set the desired agent and timesteps:
 
@@ -70,7 +70,7 @@ Then run:
 python main_rl.py
 ```
 
-### 🎮 Test Model
+### Test Model
 
 Uncomment the `test_rl_model(...)` line:
 
@@ -105,10 +105,10 @@ It will generate the reward convergence plot based on logs in `logs/monitor_*.cs
 
 ## Training Environment Info
 
-- 📦 Hardware: NVIDIA RTX 3050 Laptop GPU (4GB VRAM)
-- 🧠 Framework: Stable-Baselines3 (with CUDA auto acceleration)
-- ⏱️ Training Time: ~1 hour for 250,000 steps (depends on GPU)
-- 💾 Checkpoints: Automatically saved every 10,000 steps in `checkpoints/`
+- Hardware: NVIDIA RTX 3050 Laptop GPU (4GB VRAM)
+- Framework: Stable-Baselines3 (with CUDA auto acceleration)
+- Training Time: ~1 hour for 250,000 steps (depends on GPU)
+- Checkpoints: Automatically saved every 10,000 steps in `checkpoints/`
 
 ---
 
