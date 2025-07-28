@@ -141,7 +141,7 @@ class PegInHoleGymEnv(gym.Env):
 
     def step(self, action):
         self.step_count += 1
-        info=False
+        info ={"insertion_success": False}  
         # Clip the action within valid range
         action = np.clip(action, self.action_space.low, self.action_space.high)
         current = p.getLinkState(self.robot_id, self.eef_link_index)
@@ -168,7 +168,7 @@ class PegInHoleGymEnv(gym.Env):
 
         if self._check_inserted():
             print("✅ Insertion successful")
-            info=True
+            info={"insertion_success": True}
 
         print(f"Step {self.step_count} | XY distance: {dist_xy:.5f} | Z distance: {dist_z:.5f} | Reward: {reward:.2f}")
 
