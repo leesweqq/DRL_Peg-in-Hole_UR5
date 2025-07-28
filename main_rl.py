@@ -85,14 +85,14 @@ def test_rl_model(agent_name):
         if terminated or truncated:
             episode_count += 1
 
-            if info:  # success
+            if info.get("insertion_success", True):
                 success_count += 1
                 print(f"✅ Episode {episode_count}: Success")
-            else:     # failure
+            else:
                 failure_count += 1
                 print(f"❌ Episode {episode_count}: Failure")
 
-            obs, info = env.reset()  # 重置環境
+            obs, info = env.reset() 
 
     success_rate = (success_count / max_episodes) * 100
     print(f"\n Test completed: {max_episodes} episodes in total")
