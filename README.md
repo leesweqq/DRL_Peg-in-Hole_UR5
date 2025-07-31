@@ -6,7 +6,6 @@ This project provides a Deep Reinforcement Learning (DRL) environment built with
 
 The UR5 robot is controlled via its **end-effector axis**, guiding a peg into a hole on a fixed object. A **camera is mounted directly on the robot’s end-effector**, capturing **100×100 grayscale images** as visual input. This configuration enables **eye-in-hand visual servoing**, where the robot perceives and reacts to its environment from its own point of view.
 
-The real demo:
 <p align="center">
   <img src="./images/real_drl_ur.gif" alt="demo">
   <img src="./images/real_drl_ur2.gif" alt="demo">
