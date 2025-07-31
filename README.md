@@ -1,14 +1,12 @@
 # DRL Peg-in-Hole Task Using Robotic Arm
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="./images/demo.gif" alt="demo" style="width: 48%;">
-  <img src="./images/real_drl_ur.gif" alt="real demo" style="width: 48%;">
-</div>
+![demo](./images/demo.gif)
 
 This project provides a Deep Reinforcement Learning (DRL) environment built with **PyBullet** and **Gymnasium**, simulating a UR5 robotic arm performing a **peg-in-hole insertion task**—a classic challenge in precision robotic assembly.
 
 The UR5 robot is controlled via its **end-effector axis**, guiding a peg into a hole on a fixed object. A **camera is mounted directly on the robot’s end-effector**, capturing **100×100 grayscale images** as visual input. This configuration enables **eye-in-hand visual servoing**, where the robot perceives and reacts to its environment from its own point of view.
 
+![demo](./images/real_drl_ur.gif)
 
 ---
 
