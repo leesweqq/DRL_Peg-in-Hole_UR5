@@ -9,6 +9,7 @@ The UR5 robot is controlled via its **end-effector axis**, guiding a peg into a 
 The real demo:
 <p align="center">
   <img src="./images/real_drl_ur.gif" alt="demo">
+  <img src="./images/real_drl_ur2.gif" alt="demo">
 </p>
 
 ---
