@@ -87,10 +87,10 @@ def test_rl_model(agent_name):
 
             if info.get("insertion_success", True):
                 success_count += 1
-                print(f"✅ Episode {episode_count}: Success")
+                print(f"Episode {episode_count}: Success")
             else:
                 failure_count += 1
-                print(f"❌ Episode {episode_count}: Failure")
+                print(f"Episode {episode_count}: Failure")
 
             obs, info = env.reset() 
 
