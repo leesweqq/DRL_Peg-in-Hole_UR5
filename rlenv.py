@@ -161,13 +161,13 @@ class PegInHoleGymEnv(gym.Env):
 
 
         if collided:
-            print("⬅️Collision detected - resetting")
+            print("Collision detected - resetting")
             done = True
         else:
             done = self._check_done()
 
         if self._check_inserted():
-            print("✅ Insertion successful")
+            print("Insertion successful")
             info={"insertion_success": True}
 
         print(f"Step {self.step_count} | XY distance: {dist_xy:.5f} | Z distance: {dist_z:.5f} | Reward: {reward:.2f}")
